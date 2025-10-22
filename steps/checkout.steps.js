@@ -6,7 +6,7 @@ const CartPage = require('../pages/CartPage');
 const CheckoutPage = require('../pages/CheckoutPage');
 
 Given('I have added {string} to the cart', async function (productName) {
-  // assume logged in
+ 
   if (!this.inventoryPage) {
     this.inventoryPage = new InventoryPage(this.page);
   }
