@@ -9,7 +9,7 @@ Given('I am logged in as {string}', async function (username) {
   await this.loginPage.open();
   await this.loginPage.login(username, 'secret_sauce');
   this.inventoryPage = new InventoryPage(this.page);
-  // espera pequeña para garantizar carga
+
   await this.page.waitForLoadState('networkidle');
 });
 
