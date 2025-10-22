@@ -25,20 +25,15 @@ Automatizar escenarios críticos del flujo de compra en Sauce Demo:
 
 ##  Instalación y configuración
 
-# 1 Clonar el repositorio
-
-git clone https://github.com/tu-usuario/saucedemo-automation.git
-cd saucedemo-automation
-
-# 2 Verifica Node.js y npm
+# 1 Verifica Node.js y npm
 node -v
 npm -v
 
 # 2. Clona el repositorio
-git clone https://github.com/DanielMG97/Reto-automatization-qa.git
+git clone https://github.com/DanielMG97/Reto_automatization.git
 
 # 3. Entra a la carpeta
-cd Reto-automatization-qa
+cd Reto-automatization
 
 # 4. Instala dependencias
 npm install
